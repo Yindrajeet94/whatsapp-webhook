@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"  # Leave empty or adjust if you have a build step
+  publish = "dist"           # If you have a static folder to deploy
+
+[functions]
+  directory = "netlify-functions"  # Directory where serverless functions will reside
